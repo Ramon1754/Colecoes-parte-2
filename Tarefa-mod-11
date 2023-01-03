@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TarefaTest2 {
+
+    public static void main(String args[]) {
+        nomeDaPessoa();
+        sexoDaPessoa();
+
+    }
+
+    public static void sexoDaPessoa() {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Por favor, digite seu sexo:");
+
+        String lista = s.next();
+        List<String> sexo = new ArrayList<String>();
+        sexo.add(sexo.toString());
+
+        System.out.println(lista);
+
+    }
+
+    public static void nomeDaPessoa() {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Qual é o seu nome?");
+
+        String resposta = s.next();
+        List<String> lista = new ArrayList<String>();
+        lista.add(resposta);
+        System.out.println(lista);
+
+    }
+}
